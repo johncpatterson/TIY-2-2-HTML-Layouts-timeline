@@ -74,14 +74,14 @@ body {
 
 .container {
   width: 70%;
-  height: 400px;
+  height: 100%;
   margin: 0px auto; }
 
 .date_stamp,
 .timeline,
 .blog_entries {
   display: inline-block;
-  height: 380px;
+  height: 100%;
   vertical-align: top; }
 
 .date,
@@ -267,8 +267,8 @@ body {
     max-height: 100%; }
   .container {
     max-height: 100%; }
-  div .date_stamp,
+  .date_stamp,
   .timeline,
   .blog_entries {
-    height: 132%;
+    height: 130%;
     vertical-align: top; } }
