@@ -55,7 +55,7 @@ body {
 .timeline,
 .blog_entries {
     display: inline-block;
-    height: 100%;
+    height: 480px;
     vertical-align: top;
 }
 
@@ -87,7 +87,6 @@ body {
 }
 
 .circle_outer {
-    // position: relative;
     display: block;
     width: 55px;
     height: 55px;
@@ -278,7 +277,7 @@ body {
     }
     .date_stamp {
         width: 100%;
-        padding: 0px;
+        padding: 5px;
         margin: 0px;
         max-height: 20%;
     }
@@ -291,7 +290,7 @@ body {
     .date_stamp,
     .timeline,
     .blog_entries {
-        height: 130%;
+        height: 100%;
         vertical-align: top;
     }
 }
