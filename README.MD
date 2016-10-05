@@ -1,4 +1,4 @@
-## TIY-2-2-Tailored-T-Shirt
+# TIY-2-2-Tailored-T-Shirt
 
 The Iron Yard Cincinnati week 2, day 2 assignment.
 
