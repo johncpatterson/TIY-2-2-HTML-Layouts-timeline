@@ -182,18 +182,30 @@ body {
     .container {
         width: 90%;
     }
+    .date_stamp {
+        height: 100%;
+    }
+    .blog_entries {
+        height: 100%;
+    }
+    .timeline {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 998px) {
     .date_stamp {
         width: 9%;
+        height: 100%;
     }
     .blog_entries {
         width: 90%;
         margin-left: 0;
+        height: 100%;
     }
     .timeline {
         width: 4%;
+
     }
     .container {
         width: 100%;
