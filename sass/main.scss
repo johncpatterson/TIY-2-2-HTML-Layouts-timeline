@@ -51,7 +51,7 @@ body {
     margin: 0px auto;
 }
 
-div .date_stamp,
+.date_stamp,
 .timeline,
 .blog_entries {
     display: inline-block;
@@ -239,18 +239,21 @@ div .date_stamp,
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+    }
     .date_stamp,
     .blog_entries {
         display: block;
-        width: 90%;
+        max-width: 90%;
         margin-left: 5%;
     }
-
     .blog_entries {}
     .timeline {
         display: none;
     }
     .date_stamp {
+        width: 100%;
         max-height: 40px;
         margin-bottom: 25px;
         margin-top: 40px;
@@ -269,8 +272,7 @@ div .date_stamp,
 }
 
 @media screen and (max-width: 500px) {
-
-    .blog_entries {  
+    .blog_entries {
         margin: 0px;
         max-width: 100%;
     }
@@ -287,10 +289,9 @@ div .date_stamp,
         max-height: 100%;
     }
     div .date_stamp,
-        .timeline,
-        .blog_entries {
+    .timeline,
+    .blog_entries {
         height: 132%;
         vertical-align: top;
-}
-   
+    }
 }
