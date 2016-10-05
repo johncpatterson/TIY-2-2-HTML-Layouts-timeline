@@ -1,21 +1,21 @@
 {
-  "name": "tiy_1_4_tailored_t_shirt",
+  "name": "tiy_2_2_HTML_layouts_timeline",
   "version": "1.0.0",
-  "description": "Tailored T Shirt ",
+  "description": "HTML Layouts Timeline",
   "main": "gulpfile.js",
   "scripts": {
     "test": "gulp"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncpatterson/TIY-1-4-Tailored-T-Shirt.git"
+    "url": "git+https://github.com/johncpatterson/TIY-2-2-HTML-Layouts-timeline.git"
   },
   "author": "John Patterson",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johncpatterson/TIY-1-4-Tailored-T-Shirt/issues"
+    "url": "https://github.com/johncpatterson/TIY-2-2-HTML-Layouts-timeline/issues"
   },
-  "homepage": "https://github.com/johncpatterson/TIY-1-4-Tailored-T-Shirt#readme",
+  "homepage": "https://github.com/johncpatterson/TIY-2-2-HTML-Layouts-timeline#readme",
   "devDependencies": {
     "browser-sync": "^2.17.0",
     "gulp": "^3.9.1",

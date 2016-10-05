@@ -242,10 +242,10 @@ div .date_stamp,
     .date_stamp,
     .blog_entries {
         display: block;
-        width: 100%;
-        margin-left: 20px;
+        width: 90%;
+        margin-left: 5%;
     }
-    
+
     .blog_entries {}
     .timeline {
         display: none;
@@ -254,7 +254,7 @@ div .date_stamp,
         max-height: 40px;
         margin-bottom: 25px;
         margin-top: 40px;
-        padding-top: 15px;
+        padding: 0;
     }
     .date {
         text-align: left;
@@ -266,4 +266,31 @@ div .date_stamp,
         font-size: 50px;
         margin-top: 0;
     }
+}
+
+@media screen and (max-width: 500px) {
+
+    .blog_entries {  
+        margin: 0px;
+        max-width: 100%;
+    }
+    .date_stamp {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        max-height: 20%;
+    }
+    .blog_text {
+        max-height: 100%;
+    }
+    .container {
+        max-height: 100%;
+    }
+    div .date_stamp,
+        .timeline,
+        .blog_entries {
+        height: 132%;
+        vertical-align: top;
+}
+   
 }
