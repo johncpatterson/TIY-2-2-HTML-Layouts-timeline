@@ -23,23 +23,21 @@ body {
     margin-top: 50px;
 }
 
-.fa-mobile,
-{
-    display: inline;
-    font-size: 40px;
-    width: 38px;
-    height: 10px;
+i.fa-mobile {
+    position: relative;
+    font-size: 45px;
+    top: -3px;
+    left: 10px;
     color: $primary-color;
     text-align: center;
     vertical-align: middle;
 }
 
-.fa-desktop,
-{
-    display: inline;
-    font-size: 40px;
-    width: 38px;
-    height: 2px;
+i.fa-desktop {
+    position: relative;
+    font-size: 28px;
+    top: 8px;
+    left: 5px;
     color: $primary-color;
     text-align: center;
     vertical-align: middle;
@@ -55,7 +53,7 @@ body {
 .timeline,
 .blog_entries {
     display: inline-block;
-    height: 480px;
+    height: 380px;
     vertical-align: top;
 }
 
@@ -87,7 +85,7 @@ body {
 }
 
 .circle_outer {
-    display: block;
+    position: relative;
     width: 55px;
     height: 55px;
     background: $timeline-color;
@@ -146,6 +144,7 @@ body {
 }
 
 .blog_entries {
+    height: 350px;
     position: relative;
     background-color: $first-blog-color;
     max-width: 78%;
@@ -178,34 +177,19 @@ body {
     }
 }
 
-@media screen and (max-width: 1100px) {
-    .container {
-        width: 90%;
-    }
-    .date_stamp {
-        height: 100%;
-    }
-    .blog_entries {
-        height: 100%;
-    }
-    .timeline {
-        height: 100%;
-    }
-}
-
 @media screen and (max-width: 998px) {
     .date_stamp {
-        width: 9%;
-        height: 100%;
+        width: 10%;
+        // height: 100%;
     }
     .blog_entries {
-        width: 90%;
-        margin-left: 0;
-        height: 100%;
+        width: 88%;
+        padding-left: 8px;
+        padding-top: 8px;
+        // height: 100%;
     }
     .timeline {
-        width: 4%;
-
+        width: 7%;
     }
     .container {
         width: 100%;
@@ -220,33 +204,6 @@ body {
     .time {
         font-size: 28px;
     }
-    .circle_outer {
-        width: 80%;
-        border-radius: 6px;
-    }
-    .circle_inner {
-        width: 80%;
-        border-radius: 6px;
-    }
-    .fa-mobile {
-        display: inline;
-        font-size: 40px;
-        width: 20px;
-        height: 10px;
-        color: $primary-color;
-        text-align: center;
-        vertical-align: middle;
-    }
-    .fa-desktop {
-        display: inline;
-        font-size: 30px;
-        width: 20px;
-        height: 5px;
-        color: $primary-color;
-        text-align: center;
-        vertical-align: middle;
-        margin-top: 9px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -255,20 +212,25 @@ body {
     }
     .date_stamp,
     .blog_entries {
-        display: block;
-        max-width: 90%;
+        max-width: 100%;
         margin-left: 5%;
     }
-    .blog_entries {}
     .timeline {
         display: none;
     }
     .date_stamp {
-        width: 100%;
-        max-height: 40px;
+        max-width: 100%;
+        max-height: 52px;
         margin-bottom: 25px;
         margin-top: 40px;
         padding: 0;
+    }
+    .blog_title {
+        padding: 0px;
+    }
+    .blog_text {
+        padding-top: 10px;
+        padding-right: 0px;
     }
     .date {
         text-align: left;
@@ -283,21 +245,11 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .blog_entries {
-        margin: 0px;
-        max-width: 100%;
-    }
     .date_stamp {
-        width: 100%;
+        max-width: 100%;
         padding: 5px;
-        margin: 0px;
+        margin: 3px;
         max-height: 20%;
-    }
-    .blog_text {
-        max-height: 100%;
-    }
-    .container {
-        max-height: 100%;
     }
     .date_stamp,
     .timeline,
